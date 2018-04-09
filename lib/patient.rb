@@ -7,7 +7,7 @@ def  initialize(name)
 end
 
 def add_appointment(appt)
-  @appointments<< date
+  @appointments<< appt 
   appt.patient = self
 end
 
