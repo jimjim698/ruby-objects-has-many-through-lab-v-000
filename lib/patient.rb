@@ -11,4 +11,8 @@ def add_appointment(appt)
   appt.patient = self
 end
 
+def appointments
+  @appointments
+end 
+
 end
