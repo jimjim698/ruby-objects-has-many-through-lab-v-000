@@ -6,9 +6,9 @@ def  initialize(name)
   @appointments = []
 end
 
-def add_appointment(date)
+def add_appointment(appt)
   @appointments<< date
-  date.patient = self
+  appt.patient = self
 end
 
 end
